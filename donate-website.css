@@ -1,0 +1,48 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-image: url(images/donation0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.first-align {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    color: white;
+    padding: 20%;
+}
+
+
+
+.text-size {
+    font-size: 40px;
+}
+
+.donate-button {
+    text-decoration: none;
+    background-color: #FF5959;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+
+
+.second-align {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding: 20%;
+}
+
+#gray-text {
+    color: gray;
+}
