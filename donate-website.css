@@ -2,13 +2,15 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
+
+
 }
 
 header {
     background-image: url(images/donation0.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-
+    margin-bottom: 5%;
 
 }
 
@@ -20,8 +22,6 @@ header {
     padding: 20%;
 }
 
-
-
 .text-size {
     font-size: 40px;
 }
@@ -32,17 +32,172 @@ header {
     color: white;
     padding: 10px 15px;
     border-radius: 5px;
+    margin: auto;
+
 }
 
 
 
-.second-align {
+
+.align {
+    margin: auto;
     width: 50%;
     text-align: center;
+
+}
+
+.donate-text {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+#donate-amount {
+    display: flex;
+    margin-bottom: 2%;
+
+}
+
+#donate-amount div {
+    padding: 40px;
+    background-color: #e6dfdf;
     margin: auto;
-    padding: 20%;
+    border-radius: 5px;
+}
+
+#selected-amount {
+    background-image: linear-gradient(tomato, rgb(206, 99, 80));
+    border: 2px solid #FF5959;
+}
+
+.first-form {
+    border-bottom: 2px solid rgb(206, 194, 194);
+    width: 500px;
+    margin: auto;
+}
+
+.other-amount {
+    border: none;
+    text-align: center;
+    width: 500px;
+    height: 50px;
 }
 
 #gray-text {
     color: gray;
+}
+
+.center-button {
+    text-align: center;
+    margin-top: 2%;
+}
+
+.donate-plan {
+    width: 50%;
+    display: flex;
+    margin: auto;
+
+}
+
+.margin {
+    margin-top: 10%;
+}
+
+
+
+
+.planes {
+    width: 30%;
+    height: 300px;
+    margin: 2%;
+    padding: 3%;
+    border-radius: 10px;
+}
+
+.images {
+    width: 50px;
+    height: 50px;
+}
+
+.food-for-family {
+    background-color: rgb(219, 228, 228);
+}
+
+.cloth-for-family {
+    background-color: #ebd1d1;
+}
+
+.medicine-for-family {
+    background-color: rgb(219, 217, 183);
+}
+
+.middle {
+    width: 90%;
+    margin: auto;
+    display: flex;
+
+}
+
+.half-width {
+    width: 40%;
+    padding: 5%;
+}
+
+.bonus-image {
+    width: 500px;
+    border-radius: 5px;
+
+}
+
+
+#second-form {
+    width: 50%;
+    background-color: #dfd7aa;
+    margin: auto;
+    text-align: center;
+    padding: 5% 5%;
+    border-radius: 10px;
+}
+
+.email {
+    width: 200px;
+    height: 30px;
+    background-color: rgb(207, 205, 205);
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    color: #b4aeae;
+    padding-left: 20px;
+}
+
+.second-form {
+    width: 500px;
+    margin: auto;
+    display: flex;
+    padding: 0;
+}
+
+.subscribe {
+    height: 30px;
+    text-decoration: none;
+    color: white;
+    width: 100px;
+    background-color: #FF5959;
+    border-radius: 0px 5px 5px 0px;
+
+}
+
+
+
+
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    margin-top: 5%;
+    color: rgb(204, 190, 190);
+}
+
+footer h2 {
+    font-family: 'Splash', cursive;
+    color: #FF5959;
 }
