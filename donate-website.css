@@ -16,7 +16,6 @@ header {
     margin: auto;
     width: 50%;
     text-align: center;
-
 }
 
 .cover-text {
@@ -45,13 +44,10 @@ header {
 
 
 
-
-
 #donate-amount {
     display: flex;
     margin-bottom: 2%;
     margin-top: 5%;
-
 }
 
 #donate-amount div {
