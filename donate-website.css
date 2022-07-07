@@ -2,27 +2,29 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
-
-
 }
 
 header {
-    background-image: url(images/donation0.jpg);
+    background-image: url(images/donation13.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 5%;
 
 }
 
-.first-align {
+.align {
+    margin: auto;
     width: 50%;
     text-align: center;
-    margin: auto;
+
+}
+
+.cover-text {
     color: white;
     padding: 20%;
 }
 
-.text-size {
+#text-size {
     font-size: 40px;
 }
 
@@ -33,33 +35,28 @@ header {
     padding: 10px 15px;
     border-radius: 5px;
     margin: auto;
+}
 
+
+
+.margin {
+    margin-top: 10%;
 }
 
 
 
 
-.align {
-    margin: auto;
-    width: 50%;
-    text-align: center;
-
-}
-
-.donate-text {
-    text-align: center;
-    margin-bottom: 2%;
-}
 
 #donate-amount {
     display: flex;
     margin-bottom: 2%;
+    margin-top: 5%;
 
 }
 
 #donate-amount div {
     padding: 40px;
-    background-color: #e6dfdf;
+    background-color: #f5efef;
     margin: auto;
     border-radius: 5px;
 }
@@ -69,7 +66,7 @@ header {
     border: 2px solid #FF5959;
 }
 
-.first-form {
+.donate-form {
     border-bottom: 2px solid rgb(206, 194, 194);
     width: 500px;
     margin: auto;
@@ -86,26 +83,21 @@ header {
     color: gray;
 }
 
-.center-button {
+.amount-button {
     text-align: center;
     margin-top: 2%;
 }
 
-.donate-plan {
+
+
+
+.donate-plans {
     width: 50%;
     display: flex;
     margin: auto;
-
 }
 
-.margin {
-    margin-top: 10%;
-}
-
-
-
-
-.planes {
+.plans {
     width: 30%;
     height: 300px;
     margin: 2%;
@@ -113,24 +105,27 @@ header {
     border-radius: 10px;
 }
 
-.images {
+.icons {
     width: 50px;
     height: 50px;
 }
 
-.food-for-family {
+.food-plans {
     background-color: rgb(219, 228, 228);
 }
 
-.cloth-for-family {
+.cloth-plans {
     background-color: #ebd1d1;
 }
 
-.medicine-for-family {
+.medicine-plans {
     background-color: rgb(219, 217, 183);
 }
 
-.middle {
+
+
+
+.bonus-section {
     width: 90%;
     margin: auto;
     display: flex;
@@ -149,8 +144,9 @@ header {
 }
 
 
-#second-form {
-    width: 50%;
+
+#email-form {
+    width: 40%;
     background-color: #dfd7aa;
     margin: auto;
     text-align: center;
@@ -160,28 +156,28 @@ header {
 
 .email {
     width: 200px;
-    height: 30px;
     background-color: rgb(207, 205, 205);
     border: none;
     border-radius: 5px 0px 0px 5px;
     color: #b4aeae;
-    padding-left: 20px;
+    padding: 10px 0px 10px 20px;
 }
 
-.second-form {
+.subscribe-form {
     width: 500px;
     margin: auto;
     display: flex;
     padding: 0;
 }
 
-.subscribe {
-    height: 30px;
+.subscribe-button {
+    padding: 10px 0px;
     text-decoration: none;
     color: white;
     width: 100px;
     background-color: #FF5959;
     border-radius: 0px 5px 5px 0px;
+    text-align: center;
 
 }
 
